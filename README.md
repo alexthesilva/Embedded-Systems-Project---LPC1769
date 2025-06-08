@@ -65,6 +65,3 @@ All configurations and detection events are stored in EEPROM.
 
 ![System Block Diagram](./blocks.png)
 
----
-
-Let me know if you'd like help generating a `.gif` demo or adding code usage instructions!
