@@ -1,0 +1,6 @@
+../src/encoder.c:27:6:ENCODER_Init	16	static
+../src/encoder.c:42:14:state_encoder	16	static
+../src/encoder.c:51:6:button_pressed	8	static
+../src/encoder.c:55:6:RIT_IRQHandler	8	static
+../src/encoder.c:214:5:ENCODER_GetValue	16	static
+../src/encoder.c:220:25:ENCODER_GetButton	16	static

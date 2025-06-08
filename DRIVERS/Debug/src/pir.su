@@ -1,0 +1,2 @@
+../src/pir.c:10:6:PIR_Init	8	static
+../src/pir.c:18:6:PIR_GetPresence	8	static

@@ -1,0 +1,10 @@
+../src/eeprom.c:15:6:eeprominit	16	static
+../src/eeprom.c:28:6:write_disable	16	static
+../src/eeprom.c:35:6:write_enable	16	static
+../src/eeprom.c:42:16:read_status	24	static
+../src/eeprom.c:52:6:dados_write	32	static
+../src/eeprom.c:68:16:dados_read	40	static
+../src/eeprom.c:81:5:CAT25128_WriteByte	40	static
+../src/eeprom.c:97:5:CAT25128_ReadByte	40	static
+../src/eeprom.c:110:5:CAT25128_WriteBlock	104	dynamic
+../src/eeprom.c:152:5:CAT25128_ReadBlock	104	dynamic

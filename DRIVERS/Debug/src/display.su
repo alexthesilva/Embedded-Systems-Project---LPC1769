@@ -1,0 +1,11 @@
+../src/display.c:8:6:niblle_write	16	static
+../src/display.c:34:6:byte_write	16	static
+../src/display.c:40:6:cmd_write	16	static
+../src/display.c:46:6:data_write	16	static
+../src/display.c:52:6:LCDText_Init	8	static
+../src/display.c:87:6:LCDText_WriteChar	24	static
+../src/display.c:93:6:LCDText_WriteString	24	static
+../src/display.c:100:6:LCDText_SetCursor	24	static
+../src/display.c:108:6:LCDText_Home	8	static
+../src/display.c:113:6:LCDText_Clear	8	static
+../src/display.c:128:6:LCDText_Printf	32	static

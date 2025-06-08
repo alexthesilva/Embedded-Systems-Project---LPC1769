@@ -1,0 +1,8 @@
+../src/modos.c:49:6:getLight	16	static
+../src/modos.c:58:6:setLight	16	static
+../src/modos.c:99:6:showReg	40	static
+../src/modos.c:132:6:regEeprom	40	static
+../src/modos.c:170:6:readReg	24	static
+../src/modos.c:212:6:clearReg	24	static
+../src/modos.c:258:6:modoNormal	72	static
+../src/modos.c:351:6:modoManutencao	24	static

@@ -1,0 +1,5 @@
+../src/rtchall.c:7:6:RTC_Start	4	static
+../src/rtchall.c:11:6:RTC_Stop	4	static
+../src/rtchall.c:15:6:RTC_HallInit	4	static
+../src/rtchall.c:23:6:RTC_HallGetValue	16	static
+../src/rtchall.c:34:6:RTC_HallSetValue	16	static

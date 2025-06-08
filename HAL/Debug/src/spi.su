@@ -1,0 +1,4 @@
+../src/spi.c:18:6:SPI_Init	8	static
+../src/spi.c:50:6:SPI_Config	32	static
+../src/spi.c:81:16:SPI_Transfere	16	static
+../src/spi.c:91:5:SPI_Transfer	32	static

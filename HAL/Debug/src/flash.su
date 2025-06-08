@@ -1,0 +1,5 @@
+../src/flash.c:49:14:FLASH_BlankCheck	72	static
+../src/flash.c:68:14:FLASH_PrepareSector	72	static
+../src/flash.c:86:14:FLASH_EraseSector	72	static
+../src/flash.c:106:14:FLASH_WriteData	72	static
+../src/flash.c:123:14:FLASH_VerifyData	72	static

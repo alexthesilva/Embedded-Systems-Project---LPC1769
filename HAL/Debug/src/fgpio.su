@@ -1,0 +1,11 @@
+../src/fgpio.c:18:6:gpiotoggle	16	static
+../src/fgpio.c:23:6:gpiordpin	24	static
+../src/fgpio.c:36:6:gpiordlatch	24	static
+../src/fgpio.c:50:6:iopullup	32	static
+../src/fgpio.c:72:6:iotype	32	static
+../src/fgpio.c:95:6:gpiowr8	32	static
+../src/fgpio.c:115:6:gpiowr16	32	static
+../src/fgpio.c:136:6:gpiodir	40	static
+../src/fgpio.c:154:6:gpiowrbit	32	static
+../src/fgpio.c:175:6:gpiowr32	24	static
+../src/fgpio.c:189:10:gpiord32_gpio	24	static
