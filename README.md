@@ -1,4 +1,4 @@
-# Embedded-Systems-Project---LPC1769
+# Embedded-Systems-Project-LPC1769-2022
 
 #Objective
 This project was developed for the Embedded Systems course and aims to implement an autonomous system for lighting control based on occupancy detection and ambient light levels.
