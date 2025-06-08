@@ -1,62 +1,70 @@
-# Embedded-Systems-Project-LPC1769-2022
+# Embedded Systems Project – LPC1769 (2022)
 
-#Objective
-This project was developed for the Embedded Systems course and aims to implement an autonomous system for lighting control based on occupancy detection and ambient light levels.
+## 🎯 Objective
 
-Architecture
-The system is based on the NXP LPCXpresso LPC1769 development board, which includes the LPC1769 microcontroller. It also integrates:
+This project was developed for the **Embedded Systems** course and aims to implement an **autonomous lighting control system** based on **occupancy detection** and **ambient light levels**.
 
-A motion detection module using the AM312 sensor
+---
 
-A light intensity sensor module using the BH1750 sensor
+## 🛠️ Architecture
 
-A 128 Kb non-volatile EEPROM memory with an SPI interface
+The system is based on the **NXP LPCXpresso LPC1769** development board, featuring the **LPC1769 microcontroller**. The following components are integrated:
 
-A local user interface with a rotary and push-button control
+- 🕹️ **User Interface**: Rotary encoder with push-button functionality  
+- 📟 **LCD Display**: MC1602C (2x16 characters), controlled via HD44780  
+- 👀 **Motion Sensor**: AM312 (PIR-based)  
+- 💡 **Light Sensor**: BH1750  
+- 💾 **EEPROM**: 128 Kb non-volatile memory with SPI interface  
+- 💡 **LED**: Represents the controlled lighting output
 
-An MC1602C LCD display based on the HD44780 controller
+---
 
-Operation
-The system supports two distinct modes: Normal Mode and Maintenance Mode, and operates autonomously, starting automatically when powered on.
+## ⚙️ Operation
 
-Normal Mode
-In this mode, the system turns on the lights whenever motion is detected and the ambient light level is below a configured threshold. Detected events are logged in non-volatile memory.
+The system operates autonomously and supports two main modes:
 
-When the button is pressed, the system briefly displays the date, time, and current light level on the LCD for 5 seconds. The rest of the time, the LCD remains off.
+### ✅ Normal Mode
 
-Maintenance Mode
-This mode allows the user to:
+- Automatically turns on the light when **motion is detected** and the **ambient light level is below** the configured threshold.
+- Events are stored in non-volatile memory (with timestamp and light value).
+- Pressing the button shows **date, time, and light level** on the LCD for 5 seconds; the LCD stays off otherwise.
 
-Set the minimum ambient light threshold for activating the lights
+### 🛠️ Maintenance Mode
 
-Set the date and time
+Activated via **double-click** of the button. This mode allows:
 
-View stored detection logs
+- Setting the **minimum light threshold**
+- Adjusting the **date and time**
+- Viewing the **detection logs**
 
-The system enters Maintenance Mode with a double-click of the button.
+#### In this mode:
 
-In this mode:
+- 🔄 The **rotary encoder** navigates through menus  
+- ✅ The **push-button** selects or confirms menu items  
 
-The rotary encoder is used to navigate the menu
+##### While setting date/time:
 
-Pressing the button selects the highlighted menu item
+- The rotary encoder **increases/decreases** the selected field  
+- The button moves to the **next field** or confirms input when on the last one
 
-While setting the date and time:
+##### While setting the light threshold:
 
-The rotary encoder increments/decrements the selected value
+- The encoder adjusts the value  
+- The button confirms the selection and returns to the menu
 
-Pressing the button moves to the next field or confirms the input
+##### While viewing logs:
 
-While setting the light threshold:
+- The encoder scrolls through previous/next entries  
+- The button exits the log view and returns to the menu
 
-The rotary encoder adjusts the value
+All configurations and detection events are stored in EEPROM.
 
-Pressing the button confirms and returns to the menu
+---
 
-While viewing logs:
+## 📷 System Block Diagram
 
-The rotary encoder browses through previous/next records
+![System Block Diagram](./path-to-your-image.png)
 
-Pressing the button exits the view and returns to the menu
+---
 
-The system saves the light threshold configuration and motion detection logs (date, time, and light level) in non-volatile memory.
+Let me know if you'd like help generating a `.gif` demo or adding code usage instructions!
